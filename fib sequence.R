@@ -15,8 +15,8 @@ fibslow(5)
 
 #quicker fib
 fibk <- function(n) {
-  len = 400
-  fibvals = numeric(len)
+  len = n
+  fibvals = numeric(n)
   fibvals[1] = 1
   fibvals[2] = 1
   for (i in 3:n) {
